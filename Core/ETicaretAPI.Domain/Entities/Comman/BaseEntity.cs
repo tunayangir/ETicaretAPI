@@ -10,5 +10,6 @@ namespace ETicaretAPI.Domain.Entities.Comman
     {
         public Guid Id { get; set; }
         public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
     }
 }
